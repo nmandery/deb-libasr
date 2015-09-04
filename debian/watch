@@ -1,0 +1,4 @@
+# Upstream releases quasi-weekly snapshots of the form YYYYMMDD but official
+# releases have version numbers X.Y.Z. We only care about the official releases
+version=3
+https://github.com/OpenSMTPD/libasr/tags .*/libasr-(\d[\d\.]+[\.]+[\d\.]*)\.tar\.gz

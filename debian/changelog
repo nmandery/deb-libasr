@@ -1,0 +1,5 @@
+libasr (1.0.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #751909)
+
+ -- Ryan Kavanagh <rak@debian.org>  Mon, 11 May 2015 10:49:29 -0400
