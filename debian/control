@@ -14,7 +14,7 @@ Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/libasr.git;a=summary
 Package: libasr-dev
 Section: libdevel
 Architecture: any
-Depends: libasr0 (= ${binary:Version}), ${misc:Depends}
+Depends: libasr (= ${binary:Version}), ${misc:Depends}
 Description: asynchronous DNS resolver (development files)
  libasr provides a simple interface for asynchronous address resolution and
  nameserver querying. It should be used in place of the classical resolver
@@ -24,7 +24,8 @@ Description: asynchronous DNS resolver (development files)
  .
  This package provides the development files for libasr0.
 
-Package: libasr0
+Package: libasr
+Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: asynchronous DNS resolver
